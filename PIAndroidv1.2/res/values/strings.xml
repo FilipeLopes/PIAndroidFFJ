@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PizzaTuh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="txtMainPizza">&quot;Pizza: &quot;</string>
+    <string name="txtMainTamanho">Tamanho:</string>
+    <string name="txtMainBebida">Bebida:</string>
+    <string name="btMainIniciarPedido">Inicar Pedido</string>
+    <string name="txtPedidoMesa">"Nº Mesa: "</string>
+    <string name="btPedidoPizza">Pizza</string>
+    <string name="btPedidoBebida">Bebida</string>
+    <string name="txtPizzaSabor1">Sabor 1:</string>
+    <string name="txtPizzaTamanho">"Tamanho: "</string>
+    <string name="txtPizzaSabor2">Sabor 2:</string>
+    <string name="txtPizzaSabor3">Sabor 3:</string>
+    <string name="txtPizzaCatupiry">Catupiry</string>
+    <string name="cbPizzaCheddar">Cheddar</string>
+    <string name="txtPizzaSemBorda">Sem Borda</string>
+    <string name="txtPizzaBorda">Borda:</string>
+    <string name="txtPizzaObservacoes">Observações:</string>
+    <string name="btPizzaEnviar">Enviar</string>
+    <string name="txtBebidaBebida">Bebida:</string>
+    <string name="txtBebidaQuantidade">Quantidade:</string>
+    <string name="btBebidaEnviar">Enviar</string>
+    <string name="txtMainMesa">Mesa:</string>
+    <string name="btMainListar">Listar Mesas</string>
+
+</resources>
