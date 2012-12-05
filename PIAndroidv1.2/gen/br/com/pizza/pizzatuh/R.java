@@ -14,41 +14,46 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int btBebidaEnviar=0x7f07000a;
+        public static final int btBebidaEnviar=0x7f07000e;
         public static final int btMainFazerPedido=0x7f070002;
         public static final int btMainListar=0x7f070003;
-        public static final int btPizzaEnviar=0x7f07001a;
-        public static final int cbPizzaCatupiry=0x7f070016;
-        public static final int cbPizzaCheddar=0x7f070017;
-        public static final int cbPizzaSemBorda=0x7f070015;
-        public static final int editPizzaObs=0x7f070019;
-        public static final int editText1=0x7f070009;
-        public static final int listView1=0x7f070005;
-        public static final int menu_settings=0x7f07001b;
-        public static final int scrollView1=0x7f07000b;
-        public static final int spBebidaBebida=0x7f070007;
+        public static final int btMainMesa=0x7f070004;
+        public static final int btMesaEnviar=0x7f070007;
+        public static final int btPizzaEnviar=0x7f07001e;
+        public static final int cbPizzaCatupiry=0x7f07001a;
+        public static final int cbPizzaCheddar=0x7f07001b;
+        public static final int cbPizzaSemBorda=0x7f070019;
+        public static final int editMesaNumMesa=0x7f070006;
+        public static final int editPizzaObs=0x7f07001d;
+        public static final int editText1=0x7f07000d;
+        public static final int listView1=0x7f070009;
+        public static final int menu_settings=0x7f07001f;
+        public static final int scrollView1=0x7f07000f;
+        public static final int spBebidaBebida=0x7f07000b;
         public static final int spMainMesa=0x7f070001;
-        public static final int spPizzaSabor1=0x7f07000f;
-        public static final int spPizzaSabor2=0x7f070011;
-        public static final int spPizzaSabor3=0x7f070013;
-        public static final int spPizzaTamanho=0x7f07000d;
-        public static final int tabhost=0x7f070004;
-        public static final int txtBebidaBebida=0x7f070006;
-        public static final int txtBebidaQuantidade=0x7f070008;
+        public static final int spPizzaSabor1=0x7f070013;
+        public static final int spPizzaSabor2=0x7f070015;
+        public static final int spPizzaSabor3=0x7f070017;
+        public static final int spPizzaTamanho=0x7f070011;
+        public static final int tabhost=0x7f070008;
+        public static final int txtBebidaBebida=0x7f07000a;
+        public static final int txtBebidaQuantidade=0x7f07000c;
         public static final int txtMainMesa=0x7f070000;
-        public static final int txtPizzaBorda=0x7f070014;
-        public static final int txtPizzaObservacoes=0x7f070018;
-        public static final int txtPizzaSabor1=0x7f07000e;
-        public static final int txtPizzaSabor2=0x7f070010;
-        public static final int txtPizzaSabor3=0x7f070012;
-        public static final int txtPizzaTamanho=0x7f07000c;
+        public static final int txtMesaNumMesa=0x7f070005;
+        public static final int txtPizzaBorda=0x7f070018;
+        public static final int txtPizzaObservacoes=0x7f07001c;
+        public static final int txtPizzaSabor1=0x7f070012;
+        public static final int txtPizzaSabor2=0x7f070014;
+        public static final int txtPizzaSabor3=0x7f070016;
+        public static final int txtPizzaTamanho=0x7f070010;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
-        public static final int iniciar_pedido=0x7f030001;
-        public static final int lista_mesa=0x7f030002;
-        public static final int pedido_bebida=0x7f030003;
-        public static final int pedido_pizza=0x7f030004;
+        public static final int cadastro_mesa=0x7f030001;
+        public static final int iniciar_pedido=0x7f030002;
+        public static final int lista_mesa=0x7f030003;
+        public static final int pedido_bebida=0x7f030004;
+        public static final int pedido_pizza=0x7f030005;
     }
     public static final class menu {
         public static final int activity_main=0x7f060000;
@@ -58,6 +63,8 @@ public final class R {
         public static final int btBebidaEnviar=0x7f040016;
         public static final int btMainIniciarPedido=0x7f040006;
         public static final int btMainListar=0x7f040018;
+        public static final int btMainMesa=0x7f040019;
+        public static final int btMesaEnviar=0x7f04001b;
         public static final int btPedidoBebida=0x7f040009;
         public static final int btPedidoPizza=0x7f040008;
         public static final int btPizzaEnviar=0x7f040013;
@@ -70,6 +77,7 @@ public final class R {
         public static final int txtMainMesa=0x7f040017;
         public static final int txtMainPizza=0x7f040003;
         public static final int txtMainTamanho=0x7f040004;
+        public static final int txtMesaNumMesa=0x7f04001a;
         public static final int txtPedidoMesa=0x7f040007;
         public static final int txtPizzaBorda=0x7f040011;
         public static final int txtPizzaCatupiry=0x7f04000e;

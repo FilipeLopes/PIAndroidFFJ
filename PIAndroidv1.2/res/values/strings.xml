@@ -26,5 +26,8 @@
     <string name="btBebidaEnviar">Enviar</string>
     <string name="txtMainMesa">Mesa:</string>
     <string name="btMainListar">Listar Mesas</string>
+    <string name="btMainMesa">Nova Mesa</string>
+    <string name="txtMesaNumMesa">"Número da Mesa: "</string>
+    <string name="btMesaEnviar">Enviar</string>
 
 </resources>
