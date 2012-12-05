@@ -9,8 +9,10 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
@@ -61,6 +63,18 @@ public class MainActivity extends Activity {
 
         spinner.setAdapter(dataAdapter);
         
+    
+    }
+    
+    public void onItemSelected(AdapterView<?> parent, View view, int position,
+            long id) {
+        // On selecting a spinner item
+        String label = parent.getItemAtPosition(position).toString();
+ 
+        // Showing selected spinner item
+        Toast.makeText(parent.getContext(), "Você selecionou: " + label,
+                Toast.LENGTH_LONG).show();
+ 
     }
     
     @Override
