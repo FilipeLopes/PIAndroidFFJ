@@ -8,11 +8,10 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class DB extends SQLiteOpenHelper {
 
 	private static String dbName  = "pizza1.db";
-	private static String sql     = "CREATE TABLE [pizza] " +
+	private static String sql     = "CREATE TABLE [sabor] " +
 			"([id] INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE," +
-			"[idBorda] integer(3), " +
-			"[idTamanho] integer(3)," +
-			"[idSabor] integer(3));";
+			"[sabor] String(40), " +
+			"[preco] String(40));";
 		
 	private static int    version = 1;
 	
