@@ -13,6 +13,11 @@ public class DB extends SQLiteOpenHelper {
 			"[sabor] String(40), " +
 			"[preco] String(40));";
 		
+	
+	private static String sql1    = "CREATE TABLE [mesa] " +
+			"([id] INTEGER PRIMARY KEY AUTOINCREMENT UNIQUE," +
+			"[numMesa] int(3));";
+	
 	private static int    version = 1;
 	
 	public DB(Context ctx) {
@@ -23,6 +28,7 @@ public class DB extends SQLiteOpenHelper {
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		db.execSQL(sql);
+		db.execSQL(sql1);
 	}
 
 	@Override

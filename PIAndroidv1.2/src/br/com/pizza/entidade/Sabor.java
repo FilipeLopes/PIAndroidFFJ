@@ -12,7 +12,6 @@ public class Sabor {
 	}
 
 	public Sabor(Integer id, String sabor, float preco) {
-		super();
 		this.id = id;
 		this.sabor = sabor;
 		this.preco = preco;
